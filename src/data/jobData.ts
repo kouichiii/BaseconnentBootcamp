@@ -32,7 +32,7 @@ export type JobData = {
     { id: 22, category: "製造", income: 490, title: "製品設計エンジニア" },
     { id: 23, category: "デザイン", income: 570, title: "Webデザイナー" },
     { id: 24, category: "マーケティング", income: 600, title: "SEOスペシャリスト" },
-    { id: 25, category: "医療・介護", income: 510, title: "医療事務" }
+    { id: 25, category: "医療・介護", income: 530, title: "医療事務" }
   ];
   
   
