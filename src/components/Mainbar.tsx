@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Slicebar from "./Slicebar";
 import { jobData as tmpData} from "../data/jobData";
 import { useLocation } from "react-router-dom";
