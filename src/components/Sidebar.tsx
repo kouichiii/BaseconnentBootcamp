@@ -18,7 +18,7 @@ const Sidebar = ({ onCategoryChange, onIncomeChange }: SidebarProps) => {
     useEffect(() => {
         const fetchJobs = async () => {
             try {
-                const response = await fetch("http://localhost:3000/category");
+                const response = await fetch("https://mochomocho-back-8cd1b4c47b83.herokuapp.com/category");
                 const data = await response.json(); // JSON形式に変換
                 setCategories(data); // 取得したデータを状態変数に設定
             } catch (error) {

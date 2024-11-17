@@ -28,7 +28,7 @@ const Mainbar = ({ selectedCategories, selectedIncome }: MainbarProps) => {
   useEffect(() => {
       const fetchJobs = async () => {
           try {
-              const response = await fetch("http://localhost:3000/job");
+              const response = await fetch("https://mochomocho-back-8cd1b4c47b83.herokuapp.com/job");
               const data = await response.json(); // JSON形式に変換
               setJobs(data); // 取得したデータを状態変数に設定
           } catch (error) {
